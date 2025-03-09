@@ -1,0 +1,81 @@
+/weiyue-lin.github.io/weiyue-lin.github.io/src/App.css
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.social a {
+    color: #495057;
+    margin-right: 15px;
+}
+
+.btn-cta-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-download {
+    margin-top: 20px;
+}
+
+.sections-wrapper {
+    margin-top: 40px;
+}
+
+.about, .latest {
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.project-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.25rem;
+}
+
+.desc p {
+    margin: 0;
+}
+
+.info, .testimonials, .education {
+    margin-bottom: 30px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}

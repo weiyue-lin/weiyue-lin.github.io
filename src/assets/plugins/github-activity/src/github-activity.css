@@ -1,0 +1,65 @@
+/* GitHub Activity Plugin Styles */
+
+/* General styles for the GitHub activity section */
+.github-activity {
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    background-color: #f6f8fa;
+}
+
+/* Activity item styles */
+.github-activity .activity-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.github-activity .activity-item:last-child {
+    border-bottom: none;
+}
+
+.github-activity .activity-item .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.github-activity .activity-item .content {
+    flex: 1;
+}
+
+.github-activity .activity-item .content .date {
+    font-size: 12px;
+    color: #586069;
+}
+
+/* Link styles */
+.github-activity a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.github-activity a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .github-activity {
+        margin: 10px 0;
+    }
+
+    .github-activity .activity-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .github-activity .activity-item .avatar {
+        margin-bottom: 5px;
+    }
+}
