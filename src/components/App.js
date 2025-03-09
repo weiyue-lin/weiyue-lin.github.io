@@ -3,7 +3,7 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import Publications from './Publications';
 import Sidebar from './Sidebar';
-import './App.css';
+import './assets/css/App.css'; 
 
 function App() {
     return (
