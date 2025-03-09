@@ -7,7 +7,7 @@ import './assets/css/App.css';
 
 function App() {
     return (
-        <div className="app">
+        <div className="App">
             <Header />
             <div className="container sections-wrapper py-5">
                 <div className="row">
